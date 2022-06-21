@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9d2f58bf9382b46b4fe3a3bfaf0974, type: 3}
+  m_Name: Rifle_PDW-57
+  m_EditorClassIdentifier: 
+  gunName: PDW-57
+  gunID: 10
+  gunSprite: {fileID: 21300000, guid: 1b3bb8f4e32b0ca4398c332b3ca06f45, type: 3}
+  gunPrefab: {fileID: 3249396422946471609, guid: bde60e7bb4597c94ab24dc6ba0f5019b, type: 3}
+  levelUnlocked: 0
+  gunDamageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 16
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 20
+      value: 7
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 90
+      value: 7
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gunRecoil: 2
+  gunAimDivider: 2
+  gunRecoilTime: 0.1
+  gunFireRate: 0.1
+  autoFire: 1
+  burstFire: 0
+  burstRonds: 0
+  burstSpeed: 0
+  shootsShells: 0
+  shellCount: 0
+  shootProjectile: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 0
+  explotionRange: 0
+  magSize: 30
+  maxAmmo: 120
+  reloadTime: 2.5
+  reloadPerBullet: 0
+  reloadBulletTime: 0
+  scopeTime: 0.2
+  gunAimingAccuracy: 5
+  gunNotAimingAccuracy: 30
+  scopeFOV: 0
+  scopedSensMultiplier: 0
+  camoUnlockWay: Headshots
+  camoUnlockPoints: 050000000a000000190000003200000064000000

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9d2f58bf9382b46b4fe3a3bfaf0974, type: 3}
+  m_Name: SMG_Uzi
+  m_EditorClassIdentifier: 
+  gunName: Uzi
+  gunID: 3
+  gunSprite: {fileID: 21300000, guid: 628ece109e0132d48a70dfc47e79f712, type: 3}
+  gunPrefab: {fileID: 8226691069023712532, guid: 838cfa6549e0ff140969756b20fa3efa, type: 3}
+  levelUnlocked: 3
+  gunDamageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 20
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 15
+      value: 18
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 40
+      value: 10
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 75
+      value: 10
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gunRecoil: 2
+  gunAimDivider: 1.5
+  gunRecoilTime: 0.06
+  gunFireRate: 0.06
+  autoFire: 1
+  burstFire: 0
+  burstRonds: 0
+  burstSpeed: 0
+  shootsShells: 0
+  shellCount: 0
+  shootProjectile: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 0
+  explotionRange: 0
+  magSize: 10
+  maxAmmo: 100
+  reloadTime: 1
+  reloadPerBullet: 0
+  reloadBulletTime: 0
+  scopeTime: 0.2
+  gunAimingAccuracy: 20
+  gunNotAimingAccuracy: 20
+  scopeFOV: 0
+  scopedSensMultiplier: 0
+  camoUnlockWay: Headshots
+  camoUnlockPoints: 050000000a000000190000003200000064000000

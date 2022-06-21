@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9d2f58bf9382b46b4fe3a3bfaf0974, type: 3}
+  m_Name: ShotGun_M870
+  m_EditorClassIdentifier: 
+  gunName: M870
+  gunID: 2
+  gunSprite: {fileID: 21300000, guid: e19a27e8ce4b43e4da4fe43018390307, type: 3}
+  gunPrefab: {fileID: 2172836790192478758, guid: ef0539dd172042b44bca903675af1042, type: 3}
+  levelUnlocked: 0
+  gunDamageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 150
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 120
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 60
+      value: 50
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 90
+      value: 50
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gunRecoil: 10
+  gunAimDivider: 1.5
+  gunRecoilTime: 0.1
+  gunFireRate: 1.2
+  autoFire: 0
+  burstFire: 0
+  burstRonds: 0
+  burstSpeed: 0
+  shootsShells: 1
+  shellCount: 8
+  shootProjectile: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 0
+  explotionRange: 0
+  magSize: 7
+  maxAmmo: 28
+  reloadTime: 0.167
+  reloadPerBullet: 1
+  reloadBulletTime: 0.5
+  scopeTime: 0.2
+  gunAimingAccuracy: 35
+  gunNotAimingAccuracy: 60
+  scopeFOV: 0
+  scopedSensMultiplier: 0
+  camoUnlockWay: Headshots
+  camoUnlockPoints: 050000000a000000190000003200000064000000

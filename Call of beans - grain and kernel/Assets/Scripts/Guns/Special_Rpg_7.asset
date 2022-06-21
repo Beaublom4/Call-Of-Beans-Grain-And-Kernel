@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9d2f58bf9382b46b4fe3a3bfaf0974, type: 3}
+  m_Name: Special_Rpg_7
+  m_EditorClassIdentifier: 
+  gunName: RPG-7
+  gunID: 6
+  gunSprite: {fileID: 21300000, guid: 2885639f01769df4eaed6a5beae011c5, type: 3}
+  gunPrefab: {fileID: 6335877189618199380, guid: 3c788e836235a174bac4a1b5a1b2f4c1, type: 3}
+  levelUnlocked: 24
+  gunDamageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 200
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 10
+      value: 200
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gunRecoil: 15
+  gunAimDivider: 1
+  gunRecoilTime: 0.2
+  gunFireRate: 3
+  autoFire: 0
+  burstFire: 0
+  burstRonds: 0
+  burstSpeed: 0
+  shootsShells: 0
+  shellCount: 0
+  shootProjectile: 1
+  projectilePrefab: {fileID: 6252895704960934969, guid: 16e8cff0d837c5841a2f2d723bdbf6ae, type: 3}
+  projectileSpeed: 30
+  explotionRange: 5
+  magSize: 1
+  maxAmmo: 1
+  reloadTime: 3
+  reloadPerBullet: 0
+  reloadBulletTime: 0
+  scopeTime: 0.5
+  gunAimingAccuracy: 0
+  gunNotAimingAccuracy: 0
+  scopeFOV: 0
+  scopedSensMultiplier: 0
+  camoUnlockWay: Kills
+  camoUnlockPoints: 0a00000014000000280000004b00000096000000

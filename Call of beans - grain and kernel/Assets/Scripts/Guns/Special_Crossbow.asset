@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9d2f58bf9382b46b4fe3a3bfaf0974, type: 3}
+  m_Name: Special_Crossbow
+  m_EditorClassIdentifier: 
+  gunName: Crossbow
+  gunID: 5
+  gunSprite: {fileID: 21300000, guid: bd4458dc831d9d141ae71850b325e85a, type: 3}
+  gunPrefab: {fileID: 2296857800524357026, guid: 187413e38b5891d4a97a29400a8a031e, type: 3}
+  levelUnlocked: 12
+  gunDamageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 100
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 10
+      value: 100
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gunRecoil: 1
+  gunAimDivider: 1
+  gunRecoilTime: 0.1
+  gunFireRate: 2
+  autoFire: 0
+  burstFire: 0
+  burstRonds: 0
+  burstSpeed: 0
+  shootsShells: 0
+  shellCount: 0
+  shootProjectile: 1
+  projectilePrefab: {fileID: 3272776906743739575, guid: a54e0bab3c6ac1245b0ef7bce7d53735, type: 3}
+  projectileSpeed: 35
+  explotionRange: 0
+  magSize: 1
+  maxAmmo: 11
+  reloadTime: 2
+  reloadPerBullet: 0
+  reloadBulletTime: 0
+  scopeTime: 0.2
+  gunAimingAccuracy: 0
+  gunNotAimingAccuracy: 0
+  scopeFOV: 25
+  scopedSensMultiplier: 0.45
+  camoUnlockWay: Headshots
+  camoUnlockPoints: 050000000a000000190000003200000064000000

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7983d38e308ef0479ad7e42e2cdac1a, type: 3}
+  m_Name: Smoke
+  m_EditorClassIdentifier: 
+  throwableName: Smoke
+  throwableSprite: {fileID: 21300000, guid: bee806df8973ce74e8d8b0e1cf72304e, type: 3}
+  explodeDamage: 0
+  throwablePrefab: {fileID: 8612353472780977931, guid: 8039b9c1147737747b37bdf05601702c, type: 3}
+  nadeCount: 1
+  throwInput: {x: 0, y: 0, z: 1000}
+  explodeRange: 0
+  explodeDelay: 3
+  canCook: 0
+  explodeOnImpact: 0
+  nadeId: 3

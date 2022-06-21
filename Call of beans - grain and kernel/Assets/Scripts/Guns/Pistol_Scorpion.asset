@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9d2f58bf9382b46b4fe3a3bfaf0974, type: 3}
+  m_Name: Pistol_Scorpion
+  m_EditorClassIdentifier: 
+  gunName: Scorpion
+  gunID: 17
+  gunSprite: {fileID: 21300000, guid: 9c82170dbe159044cb7b1caf6bc3baff, type: 3}
+  gunPrefab: {fileID: 8536287569707130751, guid: bcdcff2d3232663489b88a0963c7ae56, type: 3}
+  levelUnlocked: 21
+  gunDamageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 15
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 20
+      value: 10
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 40
+      value: 10
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gunRecoil: 2
+  gunAimDivider: 2
+  gunRecoilTime: 0.05
+  gunFireRate: 0.05
+  autoFire: 1
+  burstFire: 0
+  burstRonds: 0
+  burstSpeed: 0
+  shootsShells: 0
+  shellCount: 0
+  shootProjectile: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 0
+  explotionRange: 0
+  magSize: 14
+  maxAmmo: 40
+  reloadTime: 2
+  reloadPerBullet: 0
+  reloadBulletTime: 0
+  scopeTime: 0.2
+  gunAimingAccuracy: 30
+  gunNotAimingAccuracy: 60
+  scopeFOV: 0
+  scopedSensMultiplier: 0
+  camoUnlockWay: Headshots
+  camoUnlockPoints: 050000000a000000190000003200000064000000

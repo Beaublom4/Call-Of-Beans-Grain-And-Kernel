@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9d2f58bf9382b46b4fe3a3bfaf0974, type: 3}
+  m_Name: Special_Knife
+  m_EditorClassIdentifier: 
+  gunName: Knife
+  gunID: 20
+  gunSprite: {fileID: 21300000, guid: adee961effe887e42836353dd2987aa7, type: 3}
+  gunPrefab: {fileID: 7160272177228611837, guid: 504525694477452499128b7daa2f1835, type: 3}
+  levelUnlocked: 0
+  gunDamageCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gunRecoil: 0
+  gunAimDivider: 1
+  gunRecoilTime: 0
+  gunFireRate: 0
+  autoFire: 0
+  burstFire: 0
+  burstRonds: 0
+  burstSpeed: 0
+  shootsShells: 0
+  shellCount: 0
+  shootProjectile: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 0
+  explotionRange: 0
+  magSize: 0
+  maxAmmo: 0
+  reloadTime: 0
+  reloadPerBullet: 0
+  reloadBulletTime: 0
+  scopeTime: 0
+  gunAimingAccuracy: 0
+  gunNotAimingAccuracy: 0
+  scopeFOV: 0
+  scopedSensMultiplier: 0
+  camoUnlockWay: 
+  camoUnlockPoints: 

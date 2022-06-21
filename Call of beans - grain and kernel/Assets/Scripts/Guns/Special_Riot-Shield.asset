@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9d2f58bf9382b46b4fe3a3bfaf0974, type: 3}
+  m_Name: Special_Riot-Shield
+  m_EditorClassIdentifier: 
+  gunName: Riot-Shield
+  gunID: 14
+  gunSprite: {fileID: 21300000, guid: f62b7ca8b5b387949b3b88f7b386fa0c, type: 3}
+  gunPrefab: {fileID: 6925823734677895328, guid: cf5f6eb6d94660943b0f06e75a2d6fff, type: 3}
+  levelUnlocked: 27
+  gunDamageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gunRecoil: 0
+  gunAimDivider: 1
+  gunRecoilTime: 0
+  gunFireRate: 0
+  autoFire: 0
+  burstFire: 0
+  burstRonds: 0
+  burstSpeed: 0
+  shootsShells: 0
+  shellCount: 0
+  shootProjectile: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 0
+  explotionRange: 0
+  magSize: 0
+  maxAmmo: 0
+  reloadTime: 0
+  reloadPerBullet: 0
+  reloadBulletTime: 0
+  scopeTime: 0
+  gunAimingAccuracy: 0
+  gunNotAimingAccuracy: 0
+  scopeFOV: 0
+  scopedSensMultiplier: 0
+  camoUnlockWay: Knifes when hold
+  camoUnlockPoints: 0a00000014000000280000004b00000096000000

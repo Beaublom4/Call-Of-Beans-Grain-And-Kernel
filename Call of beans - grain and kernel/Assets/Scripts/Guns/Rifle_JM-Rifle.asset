@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9d2f58bf9382b46b4fe3a3bfaf0974, type: 3}
+  m_Name: Rifle_JM-Rifle
+  m_EditorClassIdentifier: 
+  gunName: JM-Rifle
+  gunID: 12
+  gunSprite: {fileID: 21300000, guid: 70ce8be1055919d4eb8d7b224af57a9a, type: 3}
+  gunPrefab: {fileID: 6473511790091284504, guid: 5d72e87695a0eb04a965ea8194548843, type: 3}
+  levelUnlocked: 32
+  gunDamageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 15
+      inSlope: -0.11111111
+      outSlope: -0.11111111
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 45
+      value: 10
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 70
+      value: 10
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gunRecoil: 2
+  gunAimDivider: 2
+  gunRecoilTime: 0.1
+  gunFireRate: 0.1
+  autoFire: 1
+  burstFire: 0
+  burstRonds: 0
+  burstSpeed: 0
+  shootsShells: 0
+  shellCount: 0
+  shootProjectile: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 0
+  explotionRange: 0
+  magSize: 30
+  maxAmmo: 120
+  reloadTime: 2.5
+  reloadPerBullet: 0
+  reloadBulletTime: 0
+  scopeTime: 0.2
+  gunAimingAccuracy: 5
+  gunNotAimingAccuracy: 35
+  scopeFOV: 0
+  scopedSensMultiplier: 0
+  camoUnlockWay: Headshots
+  camoUnlockPoints: 050000000a000000190000003200000064000000
